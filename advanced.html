@@ -2,8 +2,31 @@
 <html lang="en">
     <head>
         <title>Advanced</title>
+        <style>
+            .search-form {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .search-form input[type="text"] {
+              border-radius: 10px;
+              width: 50%;
+              padding: 0.5em;
+            }
+            .search-form input[type="submit"] {
+              border-radius: 10px;
+              width: 20%;
+              padding: 0.5em;
+              margin-top: 0.5em;
+            }
+          </style>
     </head>
 <body>
     <a href="index.html">Google</a>
+    <form class="search-form" action="https://www.google.com/search" method="get">
+        <input type="text" name="q">
+        <input type="hidden" name="as_qdr" value="all">
+        <input type="submit" value="Google Advanced">
+      </form>
 </body>
 </html>

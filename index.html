@@ -2,13 +2,35 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <style>
+            .search-form {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .search-form input[type="text"] {
+              border-radius: 10px;
+              width: 50%;
+              padding: 0.5em;
+            }
+            .search-form input[type="submit"] {
+              border-radius: 10px;
+              width: 20%;
+              padding: 0.5em;
+              margin-top: 0.5em;
+            }
+          </style>
     </head>
     <body>
-        <a href="image.html">Google Images</a>
-        <a href="advanced.html">Google Advanced</a>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div style="float: right;">
+            <a href="image.html">Google Images</a>
+            <a href="advanced.html">Google Advanced</a>
+        </div>
+        <div>
+            <form class="search-form" action="https://www.google.com/search">
+                <input type="text" name="q">
+                <input type="submit" value="Google Search">
+            </form>
+        </div>
     </body>
 </html>
