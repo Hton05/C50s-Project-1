@@ -1,21 +1,34 @@
-.search-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-  }
-  .search-form input[type="text"] {
-    border-radius: 10px;
-    width: 50%;
-    padding: 0.5em;
-  }
-  .search-form input[type="submit"] {
-    border-radius: 10px;
-    width: 20%;
-    padding: 0.5em;
-    margin-top: 0.5em;
-  }
+/* unvisited link*/
+a:link {
+  color: black;
+}
 
-a {
-    float: right;
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
 }
