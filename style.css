@@ -30,7 +30,7 @@ a:active {
   align-items: center;
 }
 
-.form-text {
+input[type="text"] {
   display: flex;
   height: 44px;
   width: 584px;
@@ -43,6 +43,13 @@ a:active {
   margin-left: auto;
   margin-right: auto; /*Same as margin: 0 auto;*/
   outline: none; /* By default, some browsers will add a blue outline around the input when it gets focus (clicked on).*/ 
+  padding-left: 12px;
+}
+
+input[type="text"]:hover {
+  /* style lorsque l'input est survolé par la souris */
+  border-color: #999;
+  cursor: pointer;
 }
 
 .form-button {
