@@ -30,7 +30,7 @@ a:active {
   align-items: center;
 }
 
-input[type="text"] {
+.text-input {
   display: flex;
   height: 44px;
   width: 584px;
@@ -40,19 +40,20 @@ input[type="text"] {
   border-color: #dfe1e5;
   border-radius: 24px;
   margin-top: 0;
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: auto; /*Same as margin: 0 auto;*/
   outline: none; /* By default, some browsers will add a blue outline around the input when it gets focus (clicked on).*/ 
   padding-left: 12px;
 }
 
-input[type="text"]:hover {
+.text-input:hover {
   /* style lorsque l'input est survolé par la souris */
   border-color: #999;
   cursor: pointer;
 }
 
-.form-button {
+input[type="submit"] {
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
@@ -67,4 +68,36 @@ input[type="text"]:hover {
   text-align: center;
   cursor: pointer;
   user-select: none;
+}
+
+.p1{
+  color: #d93025;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.p2{
+  color: #333333;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.div-form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.left{
+  width: 200px;
+}
+
+.right{
+  width: 385px;
 }
