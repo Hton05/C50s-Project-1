@@ -19,7 +19,7 @@ a:active {
   color: black;
 }
 
-.links {
+._links {
   display: flex;
   justify-content: flex-end;
 }
