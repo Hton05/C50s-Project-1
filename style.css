@@ -53,7 +53,7 @@ a:active {
   cursor: pointer;
 }
 
-input[type="submit"] {
+.but{
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
@@ -101,4 +101,18 @@ input[type="submit"] {
 
 .right{
   width: 385px;
+}
+
+.div-button{
+  display: flex;
+  justify-content: flex-end;
+  width: 595px;
+  margin-top: 30px;
+}
+
+.advanced-button{
+  box-shadow: none;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
 }
